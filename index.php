@@ -7,7 +7,7 @@
     define("DIR_CONTROLLER", DIR_APPLICATION . "/Controller");
     define("DIR_COMMON", DIR_APPLICATION . "/Common");
     define("DIR_UTIL", DIR_APPLICATION . "/Common/Util");
-    define("DIR_ENUM", DIR_APPLICATION . "/ENUM");
+    define("DIR_ENUM", DIR_APPLICATION . "/Common/ENUM");
 
     /************************************* 方法引用 **************************************/
 
@@ -21,7 +21,10 @@
     init();
 
 
+    /************************************* 测试层 **************************************/
 
+    encodeHead(EncodeEnum::UTF_8);
+    die("我爱你");
 
     /************************************* 控制器模块 **************************************/
 
